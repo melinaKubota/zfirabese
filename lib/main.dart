@@ -8,7 +8,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(); 
   FirebaseFirestore db = FirebaseFirestore.instance;
-  db.collection("usuarios").doc("159").set({
+  db.collection("usuarios").doc("1291").set({
     "nome": "Melina", 
     "idade": "28",
   });
